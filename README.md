@@ -21,8 +21,9 @@ la misma información.
 #### XML
 * El fichero se llamará ``shoppingList.xml`` y estará ubicado en ``src/main/resources``
 * La primera línea del fichero XML tiene que contener esta información (*obligatoria en los ficheros xml*):
-  ```xml
-  <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+   ```md
+   ```text
+   <?xml version="1.0" encoding="UTF-8" standalone="no"?>
   ```
 * La lista debe tener un nodo raíz llamado `shoppinglist`
 * Del nodo `shoppinglist` debe colgar otro nodo llamado `items`, del que a su vez cuelgan múltiples nodos `item`
